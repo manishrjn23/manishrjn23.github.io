@@ -155,6 +155,11 @@ body{
     display: inline-block;
     line-height: 1em;
   }
+  a{
+      color:inherit!important;
+      text-decoration: none!important;
+      font-style: italic;
+  }
 @media only screen and (max-device-width: 1365px) {
     #header{
         height: 700px;
