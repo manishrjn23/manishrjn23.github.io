@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color: black;
+}
+.logo{
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 1px;
+
+}
+.navbar-brand{
+    font-family: 'Monoton', cursive!important;
+    letter-spacing: .5rem;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 90%;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7)!important;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3rem;
+}
+#header{
+    padding-top: 2rem;
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.name-header{
+    color: white!important;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5rem;
+    font-size: 140%;
+    font-family: 'Luckiest Guy', cursive;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(2,2,2,1) 1%, rgba(0,0,0,1) 100%);
+}
+
+@media only screen and (max-device-width: 1365px) {
+    #header{
+        height: 700px;
+    }
+}
