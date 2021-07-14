@@ -13,18 +13,18 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-
+    
     <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-   </div>
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
 
     <div id="header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="/"
             ><!--<img src="logo.png" class="logo"/ >-->MR</a
           >
           <button
@@ -48,37 +48,166 @@
                 <a class="nav-link" href="#about">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Music</a>
+                <a
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  class="nav-link"
+                  href="#"
+                  >Music</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact me</a>
+                <a class="nav-link" href="#reach-out">Contact me</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <div data-aos="zoom-in" class="name-header">
-        <h2>I'm Manish Rajani</h2>
+        <h2>Hi, I'm Manish</h2>
       </div>
       <div></div>
     </div>
 
     <div class="introduction" id="about">
       <div class="container pt-5">
-        <div class="row flex justify-content-center align-items-center">
-            <div  data-aos="flip-left" data-aos-duration="1000" class="col-12 col-xl-3">
-                <img src="intro.png" height="300" />
-              </div>
-          <div data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500" class="col-12 col-xl-9">
-            I am a Computer Science major at Ashoka University, and a part-time musician. The idea of research fascinates me a lot. I am interested in web development and
-            cryptography. I am also a singer, guitarist, and an occasional songwriter.
-          </div>
-          
+        <div class="row flex justify-content-center">
+          <h1 class="ml6">
+            <span class="text-wrapper">
+              <span class="letters" style="font-weight: 200">Who am I?</span>
+            </span>
+          </h1>
         </div>
+
+        <div class="row flex justify-content-center align-items-center">
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            class="col-12 col-xl-3"
+          >
+            <img class="bitmoji" src="intro.png" height="300" />
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            class="col-12 col-xl-9"
+          >
+            I am a Computer Science major at Ashoka University, and a part-time
+            musician. I am currently working as a Research Intern at DSCI's
+            CIPHER Lab. I like solving problems, and my areas of interest
+            include web development and cryptography. I am also a singer,
+            guitarist, and an occasional songwriter.
+          </div>
+        </div>
+
         <hr />
+      </div>
+    </div>
+
+    <div class="contact" id="reach-out">
+      <div class="container pt-5">
+        <div class="row flex justify-content-center">
+          <h1 class="ml7">
+            <span class="text-wrapper">
+              <span class="letters">reach out</span>
+            </span>
+          </h1>
+        </div>
+
+        <div class="row pt-5 pb-3 flex justify-content-center">
+          My friends claim that I'm quite social
+        </div>
+        <div class="row flex justify-content-center align-items-center">
+          <!-- <div data-aos="fade-up"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500" class="col-12">
+            My friends claim that I'm quite social.<br>
+            I use my Instagram for promoting my music. You can reach out to me through DMs or follow me for my music.<br>
+            I use Twitter to tell the world about my random thoughts in the day. I highly recommend following for A1 shitposting.<br>
+            I upload my projects on GitHub uwu.<br>
+            <br>
+            And lastly, you can reach out to me on my college email or my personal email.
+            
+            </div> -->
+          <div data-toggle="tooltip" data-placement="top" title="I use my Instagram for promoting my music. You can reach out to me through DMs or follow me for my music."
+            data-aos="fade-down-right"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+           <a target="_blank" href="https://www.instagram.com/manish.rajani_/?hl=en"> <img src="ig.png" height="100px" /></a>
+          </div>
+          <div data-toggle="tooltip" data-placement="top" title="I really don't use it, honestly"
+            data-aos="zoom-in-down"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+            <a target="_blank" href="https://www.facebook.com/manish.rajani.7393/"><img src="fb.png" height="100px" /></a>
+          </div>
+          <div data-toggle="tooltip" data-placement="top" title="I use Twitter to tell the world about my random thoughts in the day. I highly recommend following for A1 shitposting"
+            data-aos="fade-down-left"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+            <a target="_blank" href="https://twitter.com/manishxrajani"><img src="tw.png" height="100px" /></a>
+          </div>
+          <div data-toggle="tooltip" data-placement="top" title="I also have a ✨YouTube Channel✨ but there's no content (still you can like share and subscribe)."
+            data-aos="fade-up-right"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+            <a target="_blank" href="https://www.youtube.com/channel/UCaDEpkEp8cOmlggq5NGYTug"><img src="yt.png" height="100px" /></a>
+          </div>
+          <div data-toggle="tooltip" data-placement="top" title="you can reach out to me on my college email"
+            data-aos="zoom-in-up"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+            <a target="_blank" href="mailto:manish.rajani_ug22@ashoka.edu.in"><img src="mail.png" height="100px" /></a>
+          </div>
+        
+          <div data-toggle="tooltip" data-placement="top" title="I upload my projects on GitHub uwu"
+            data-aos="fade-up-left"
+            class="col-6 pt-4 pb-5 col-xl-4 flex justify-content-center"
+          >
+          <a target="_blank" href="https://github.com/manishrjn23"> <img src="github.png"  height="100px" /></a>
+          </div>
+        
+        </div>
+
+        <hr />
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Coming Soon</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">This section will come soon. Till then, you can check out my Instagram account for covers.</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Go back
+            </button>
+            <a target="_blank" href="https://www.instagram.com/manish.rajani_/?hl=en"><button type="button" class="btn btn-success">My Instagram</button></a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -97,14 +226,71 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
-	<!-- <script>
+      AOS.init();
+    </script>
+    <!-- <script>
         $(window).on("load",function(){
           jQuery(".loader-wrapper").fadeOut("slow");
         });
     </script> -->
+    <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+      </script>
+    <script>
+      var textWrapper = document.querySelector(".ml6 .letters");
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      anime
+        .timeline({ loop: true })
+        .add({
+          targets: ".ml6 .letter",
+          translateY: ["1.1em", 0],
+          translateZ: 0,
+          duration: 750,
+          delay: (el, i) => 50 * i,
+        })
+        .add({
+          targets: ".ml6",
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000,
+        });
+    </script>
+    <script>
+      var textWrapper = document.querySelector(".ml7 .letters");
+      textWrapper.innerHTML = textWrapper.textContent.replace(
+        /\S/g,
+        "<span class='letter'>$&</span>"
+      );
+
+      anime
+        .timeline({ loop: true })
+        .add({
+          targets: ".ml7 .letter",
+          translateY: ["1.1em", 0],
+          translateX: ["0.55em", 0],
+          translateZ: 0,
+          rotateZ: [180, 0],
+          duration: 750,
+          easing: "easeOutExpo",
+          delay: (el, i) => 50 * i,
+        })
+        .add({
+          targets: ".ml7",
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000,
+        });
+    </script>
   </body>
 </html>
