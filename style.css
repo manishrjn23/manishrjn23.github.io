@@ -7,9 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 html{
     scroll-behavior:smooth;
-    /* cursor: url("cursor.png"), auto!important; */
+    cursor: url("cursor.png"), auto!important;
 }
-
+a{
+  cursor: url("cursor.png"), auto!important;
+}
 body{
     background-color: black;
 }
@@ -70,10 +72,6 @@ body{
     font-weight: 200;
     text-shadow: 2rem;
     background: whitesmoke;
-    cursor: context-menu;
-}
-.name-header>h2{
-    cursor: context-menu;
 }
 .ml6 {
     position: relative;
@@ -124,7 +122,6 @@ body{
     font-family: 'Poppins', sans-serif;
     text-shadow: 2rem;
     background-color: whitesmoke;
-    cursor: context-menu;
 }
 
 .hide {
@@ -174,7 +171,6 @@ body{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  cursor: context-menu;
 
 }
 .experience h1{
