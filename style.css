@@ -24,7 +24,9 @@ body{
 
 .navbar-brand{
     font-family: 'Monoton', cursive!important;
-    letter-spacing: .5rem;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2rem!important;
 }
 .nav-item{
   padding-right: 10px;
@@ -37,11 +39,12 @@ body{
     color: rgba(255,255,255,0.7)!important;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.3rem;
+    transition: 0.3s;
 }
 .nav-link:hover{
   font-weight: 700;
-  transition: 0.2s;
   border: 1px;
+  font-size: 100%;
 }
 #header{
     padding-top: 2rem;
@@ -50,7 +53,7 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     
@@ -162,11 +165,7 @@ body{
       text-decoration: none!important;
       font-style: italic;
   }
-@media only screen and (max-device-width: 1365px) {
-    #header{
-        height: 700px;
-    }
-}
+
 
 .experience{
   /* background-color: #36454f; */
