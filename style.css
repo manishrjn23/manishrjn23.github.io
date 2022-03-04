@@ -28,23 +28,29 @@ header {
   background-size: cover;
   text-align: center !important;
   background-attachment: fixed;
+  color: var(--white) !important;
+  text-shadow: 1px 1px #000000;
+  
 }
 .nav-link:hover {
-  text-shadow: 2px 2px var(--yellow) !important;
+  text-shadow: 2px 2px black !important;
   transition-duration: 0.5s !important;
+  font-weight: bold;
 }
 .navbar-toggler-icon {
   color: black !important;
 }
 .btn-header {
-  background-color: black !important;
-  color: var(--yellow) !important;
+  background-color: #cf0900 !important;
+  color: white !important;
+  
 }
 
 .btn-header:hover {
-  background-color: #a63b00 !important;
-  color: white !important;
+  color: black !important;
+  background-color: var(--yellow) !important;
   transition-delay: 0.1s;
+
 }
 
 /* about me */
@@ -58,6 +64,7 @@ header {
   color: var(--blue) !important;
   display: flex;
   justify-content: center !important;
+  text-shadow: 0.5px 0.5px #000000;
 }
 .about-text {
   font-size: 1.2rem;
@@ -66,6 +73,7 @@ header {
   text-align: justify;
   text-justify: inter-word;
   color: black!important;
+  
 }
 .about-bg-img{
   background-image: url("about-bg.png");
@@ -81,7 +89,7 @@ header {
   background-size: cover;
 }
 .sing-img {
-    background-image: url("sing.JPG");
+    background-image: url("sing.jpg");
     min-height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
